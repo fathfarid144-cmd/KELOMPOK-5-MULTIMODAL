@@ -1,0 +1,232 @@
+{
+  "per_kategori_R@1": {
+    "arsitektur/bangunan": {
+      "n": 24,
+      "i2t_id": 0.333,
+      "i2t_en": 0.667,
+      "t2i_id": 0.25,
+      "t2i_en": 0.458
+    },
+    "flora/fauna": {
+      "n": 8,
+      "i2t_id": 0.25,
+      "i2t_en": 0.5,
+      "t2i_id": 0.625,
+      "t2i_en": 0.625
+    },
+    "kuliner": {
+      "n": 106,
+      "i2t_id": 0.151,
+      "i2t_en": 0.349,
+      "t2i_id": 0.047,
+      "t2i_en": 0.264
+    },
+    "lain-lain": {
+      "n": 52,
+      "i2t_id": 0.173,
+      "i2t_en": 0.404,
+      "t2i_id": 0.192,
+      "t2i_en": 0.442
+    },
+    "pakaian/tekstil": {
+      "n": 12,
+      "i2t_id": 0.25,
+      "i2t_en": 0.417,
+      "t2i_id": 0.25,
+      "t2i_en": 0.25
+    },
+    "tarian": {
+      "n": 32,
+      "i2t_id": 0.062,
+      "i2t_en": 0.281,
+      "t2i_id": 0.156,
+      "t2i_en": 0.312
+    },
+    "tempat/alam": {
+      "n": 17,
+      "i2t_id": 0.412,
+      "i2t_en": 0.824,
+      "t2i_id": 0.471,
+      "t2i_en": 0.647
+    },
+    "transportasi": {
+      "n": 4,
+      "i2t_id": 0.75,
+      "i2t_en": 1.0,
+      "t2i_id": 0.75,
+      "t2i_en": 0.75
+    },
+    "upacara/ritual": {
+      "n": 2,
+      "i2t_id": 0.0,
+      "i2t_en": 0.0,
+      "t2i_id": 0.5,
+      "t2i_en": 0.0
+    },
+    "wayang/seni": {
+      "n": 18,
+      "i2t_id": 0.5,
+      "i2t_en": 0.722,
+      "t2i_id": 0.444,
+      "t2i_en": 0.611
+    }
+  },
+  "per_native_R@1": {
+    "Indonesian (ind)": {
+      "n": 272,
+      "i2t_id": 0.217,
+      "i2t_en": 0.452,
+      "t2i_id": 0.199,
+      "t2i_en": 0.386
+    },
+    "Javanese (jav)": {
+      "n": 3,
+      "i2t_id": 0.0,
+      "i2t_en": 0.0,
+      "t2i_id": 0.0,
+      "t2i_en": 0.0
+    }
+  },
+  "per_panjang_caption_R@1": {
+    "<=5": {
+      "n": 27,
+      "i2t_id": 0.148,
+      "i2t_en": 0.444,
+      "t2i_id": 0.259,
+      "t2i_en": 0.444
+    },
+    "6-10": {
+      "n": 116,
+      "i2t_id": 0.198,
+      "i2t_en": 0.405,
+      "t2i_id": 0.172,
+      "t2i_en": 0.371
+    },
+    "11-20": {
+      "n": 107,
+      "i2t_id": 0.206,
+      "i2t_en": 0.486,
+      "t2i_id": 0.206,
+      "t2i_en": 0.374
+    },
+    ">20": {
+      "n": 25,
+      "i2t_id": 0.4,
+      "i2t_en": 0.48,
+      "t2i_id": 0.2,
+      "t2i_en": 0.4
+    }
+  },
+  "t2i_EN_bisa_ID_gagal_R@1": 60,
+  "t2i_ID_bisa_EN_gagal_R@1": 9,
+  "i2t_EN_bisa_ID_gagal_R@1": 77,
+  "i2t_ID_bisa_EN_gagal_R@1": 13,
+  "median_rank": {
+    "i2t_id": 10.0,
+    "i2t_en": 2.0,
+    "t2i_id": 10.0,
+    "t2i_en": 2.0
+  },
+  "pembanding_acak_R@1": 0.0036,
+  "pembanding_acak_R@5": 0.0182,
+  "pembanding_acak_R@10": 0.0364,
+  "val_jawa_n": 3,
+  "terburuk_t2i_id": [
+    {
+      "image_id": "svl_141004057",
+      "category": "lain-lain",
+      "caption_id": "Sambel matah khas Bali",
+      "caption_en": "Balinese salad spicies",
+      "rank_txt2img_id": 246,
+      "rank_txt2img_en": 6
+    },
+    {
+      "image_id": "svl_143496688",
+      "category": "kuliner",
+      "caption_id": "Ini adalah bolu gulung meranti yang berasal dari Medan.",
+      "caption_en": "This is a Meranti roll cake that comes from Medan.",
+      "rank_txt2img_id": 223,
+      "rank_txt2img_en": 2
+    },
+    {
+      "image_id": "svl_147563006",
+      "category": "lain-lain",
+      "caption_id": "Panggung ketoprak sudah siap dipakai",
+      "caption_en": "The ketoprak stage is ready to be used",
+      "rank_txt2img_id": 189,
+      "rank_txt2img_en": 2
+    },
+    {
+      "image_id": "svl_142644568",
+      "category": "lain-lain",
+      "caption_id": "Ini adalah telor balado khas Minangkabau.",
+      "caption_en": "This is Balado egg from Minangkabau,  Indonesia",
+      "rank_txt2img_id": 180,
+      "rank_txt2img_en": 1
+    },
+    {
+      "image_id": "svl_142113336",
+      "category": "lain-lain",
+      "caption_id": "Kerupuk besar, biasa dipakai untuk merayakan kemerdekaan Indonesia",
+      "caption_en": "Big kerupuk, usually used to celebrate Indonesia's independence",
+      "rank_txt2img_id": 164,
+      "rank_txt2img_en": 58
+    },
+    {
+      "image_id": "svl_144425153",
+      "category": "kuliner",
+      "caption_id": "Ini bakso sapi dengan bakmi ayam dari Indonesia.",
+      "caption_en": "This is Indonesian bakso sapi (beef balls) with bakmi ayam (chicken noodle).",
+      "rank_txt2img_id": 163,
+      "rank_txt2img_en": 2
+    },
+    {
+      "image_id": "svl_143496821",
+      "category": "kuliner",
+      "caption_id": "Pop Mie rasa soto ayam adalah mi instan dalam kemasan mangkuk asal Indonesia dengan cita rasa khas soto ayam Indonesia.",
+      "caption_en": "Pop Mie chicken soto flavor is instant noodles in a cup packaging from Indonesia with the distinctive taste of Indonesian chicken soto.",
+      "rank_txt2img_id": 161,
+      "rank_txt2img_en": 3
+    },
+    {
+      "image_id": "svl_147562617",
+      "category": "kuliner",
+      "caption_id": "Nemuin Mie Ayam Bandung di Semarang khas Bandung",
+      "caption_en": "Find Bandung Chicken Noodles in Semarang, typical of Bandung",
+      "rank_txt2img_id": 158,
+      "rank_txt2img_en": 8
+    },
+    {
+      "image_id": "svl_143497321",
+      "category": "tarian",
+      "caption_id": "Potret pementasan tari Gambyong di sebuah pendopo.",
+      "caption_en": "A portrait of a Gambyong dance performance in a pendopo (Javanese traditional pavilion).",
+      "rank_txt2img_id": 149,
+      "rank_txt2img_en": 13
+    },
+    {
+      "image_id": "svl_142113138",
+      "category": "kuliner",
+      "caption_id": "Ini merupakan martabak keju dengan susu kental manis, sebuah makanan khas Indonesia",
+      "caption_en": "This is a cheese martabak with sweetened condensed milk, a typical Indonesian food.",
+      "rank_txt2img_id": 148,
+      "rank_txt2img_en": 14
+    },
+    {
+      "image_id": "svl_141004054",
+      "category": "lain-lain",
+      "caption_id": "Tempe orek pedas manis",
+      "caption_en": "Tempe sweet and spicy for dinner",
+      "rank_txt2img_id": 147,
+      "rank_txt2img_en": 1
+    },
+    {
+      "image_id": "svl_142113304",
+      "category": "kuliner",
+      "caption_id": "Bakso aci kuah dengan topping beragam seperti kerupuk dan telur",
+      "caption_en": "Bakso aci soup with various toppings like crackers and eggs",
+      "rank_txt2img_id": 132,
+      "rank_txt2img_en": 33
+    }
+  ]
+}

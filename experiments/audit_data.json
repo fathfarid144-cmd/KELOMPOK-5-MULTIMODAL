@@ -1,0 +1,159 @@
+{
+  "n": {
+    "train": 2072,
+    "val": 275,
+    "total": 2347
+  },
+  "file_hilang": 0,
+  "kategori": {
+    "train": {
+      "kuliner": 792,
+      "lain-lain": 394,
+      "tarian": 243,
+      "arsitektur/bangunan": 179,
+      "wayang/seni": 132,
+      "tempat/alam": 129,
+      "pakaian/tekstil": 93,
+      "flora/fauna": 58,
+      "transportasi": 30,
+      "upacara/ritual": 18,
+      "alat musik": 4
+    },
+    "val": {
+      "kuliner": 106,
+      "lain-lain": 52,
+      "tarian": 32,
+      "arsitektur/bangunan": 24,
+      "wayang/seni": 18,
+      "tempat/alam": 17,
+      "pakaian/tekstil": 12,
+      "flora/fauna": 8,
+      "transportasi": 4,
+      "upacara/ritual": 2
+    }
+  },
+  "kategori_val_pct": {
+    "kuliner": 38.5,
+    "lain-lain": 18.9,
+    "tarian": 11.6,
+    "arsitektur/bangunan": 8.7,
+    "wayang/seni": 6.5,
+    "tempat/alam": 6.2,
+    "pakaian/tekstil": 4.4,
+    "flora/fauna": 2.9,
+    "transportasi": 1.5,
+    "upacara/ritual": 0.7
+  },
+  "native_lang": {
+    "Indonesian (ind)": 2337,
+    "Javanese (jav)": 10
+  },
+  "native_lang_val": {
+    "Indonesian (ind)": 272,
+    "Javanese (jav)": 3
+  },
+  "loc_negara": {
+    "Indonesia": 2347,
+    "Malaysia": 56,
+    "Singapore": 38,
+    "Thailand": 19,
+    "Brunei": 10,
+    "Vietnam": 5,
+    "Philippines": 5,
+    "Cambodia": 3,
+    "East Timor": 2,
+    "Myanmar": 2,
+    "Laos": 1
+  },
+  "loc_hanya_indonesia": 2280,
+  "loc_multi_negara": 67,
+  "loc_rata_negara": 1.06,
+  "loc_ge4_negara": 17,
+  "dup_image_id": 0,
+  "dup_md5": 0,
+  "dup_caption_dalam_train": {
+    "caption_id": 50,
+    "caption_en": 50
+  },
+  "dup_caption_dalam_val": {
+    "caption_id": 1,
+    "caption_en": 1
+  },
+  "caption_val_sama_dengan_train": {
+    "caption_id": 11,
+    "caption_en": 11
+  },
+  "baris_val_caption_sama_train": 12,
+  "caption_id_sama_caption_en": 11,
+  "val_caption_id_kembar_dalam_val_baris": 2,
+  "panjang_caption_id_kata": {
+    "min": 1,
+    "median": 11.0,
+    "mean": 12.6,
+    "max": 71
+  },
+  "panjang_caption_en_kata": {
+    "min": 1,
+    "median": 12.0,
+    "mean": 13.9,
+    "max": 73
+  },
+  "caption_id_le3_kata": 44,
+  "mencurigakan": {
+    "caption_en_artefak_terjemahan_mesin": [
+      "svl_140084158"
+    ],
+    "caption_en_template_a_photo_of": 22,
+    "nol_nilai_skala_rusak_relevance_gt5": 0,
+    "caption_fit_lt_0.9": 206,
+    "img_quality_lt_0.9": 156,
+    "relevance_min_max": [
+      3.0,
+      5.0
+    ],
+    "n_annotator": {
+      "3": 1509,
+      "2": 833,
+      "4": 5
+    },
+    "lokasi_non_indonesia_pada_caption": [
+      "svl_140084068",
+      "svl_140084318",
+      "svl_140084590",
+      "svl_140084873",
+      "svl_140084874",
+      "svl_141004259",
+      "svl_142644524",
+      "svl_140084386"
+    ],
+    "native_non_indonesia": 10
+  },
+  "ukuran_gambar": {
+    "w_min": 165,
+    "w_max": 1024,
+    "h_min": 171,
+    "h_max": 1024
+  },
+  "gambar_kecil_lt_400": 21,
+  "kategori_bukan_kuliner_tapi_caption_makanan": {
+    "n": 230,
+    "kategori": {
+      "lain-lain": 93,
+      "arsitektur/bangunan": 34,
+      "pakaian/tekstil": 25,
+      "wayang/seni": 23,
+      "flora/fauna": 18,
+      "tarian": 17,
+      "tempat/alam": 13,
+      "transportasi": 4,
+      "upacara/ritual": 3
+    },
+    "contoh": [
+      "Two portions of Mie Bangka, each with a clear soup of its own",
+      "This is sambel mentah of East Java signature, made from unfried chilies and red onions",
+      "This is sayur asem of East Java signature, characterized by its very sour taste with spinach and cabbage",
+      "\"Es kopi susu gula aren\" in a plastic cup with a straw. It is made of coffee, milk, and Indonesian palm sugar.",
+      "\"Buryam\" or \"Bubur ayam\" with animal organs. Added crackers and chicken eggs. Usually served for breakfast."
+    ]
+  }
+}

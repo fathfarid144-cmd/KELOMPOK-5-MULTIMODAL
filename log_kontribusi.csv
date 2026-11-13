@@ -1,0 +1,2 @@
+nama,NIM,peran,minggu,kegiatan,bukti
+Raditya Alrasyid Nugroho,123140125,3,M1,"merancang varian M2 (prompt ensemble ID), menulis m2_prompt_ensemble.py dan rancangan_varian_m2_peran3.docx, menyesuaikan ke cache .npz Peran 2","src/m2_prompt_ensemble.py, reports/rancangan_varian_m2_peran3.docx"

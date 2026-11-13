@@ -1,0 +1,13 @@
+# data berat, jangan ikut commit (aturan TOR: gak boleh sebar data ke luar LMS)
+data/
+cache/
+*.npz
+*.npy
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
