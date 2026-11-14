@@ -1,4 +1,3 @@
-# data berat, jangan ikut commit (aturan TOR: gak boleh sebar data ke luar LMS)
 data/
 cache/
 *.npz
