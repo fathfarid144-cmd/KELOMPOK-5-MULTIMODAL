@@ -1,4 +1,4 @@
-# Proyek Akhir Pembelajaran Mesin Multimoda — Kelompok 05
+# Proyek Akhir Pembelajaran Mesin Multimodal — Kelompok 05
 IF25-40304 Pembelajaran Mesin Multimodal, Ganjil 2026/2027
 
 ## Anggota
@@ -9,7 +9,7 @@ IF25-40304 Pembelajaran Mesin Multimodal, Ganjil 2026/2027
 | 2 | Cikal Galih Nur Arifin | 123140109 | Baseline dan Pipeline|
 | 3 | Raditya Alrasyid Nugroho | 123140125 | Eksperimen Penyejajaran/Fusi |
 | 4 | Jana Rohman Wasiso | 123140046 | Evaluasi dan Uji Kasus Sulit |
-| 5 | Muhammad Fatahillah Farid | 123140203 | ntegrasi dan Koordinasi|
+| 5 | Muhammad Fatahillah Farid | 123140203 | Integrasi dan Koordinasi|
 
 Peran terkunci sejak M0, perubahan butuh persetujuan Dosen Pengampu.
 

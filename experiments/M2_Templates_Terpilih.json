@@ -1,0 +1,25 @@
+{
+  "seed": 0,
+  "n_sub": 500,
+  "split": "train",
+  "chosen": [
+    "{}",
+    "ini adalah foto {}"
+  ],
+  "waktu_seleksi_dtk": 288.6,
+  "trace": [
+    {
+      "set": [
+        "{}"
+      ],
+      "R@1_train_rata2_dua_arah_ID": 0.158
+    },
+    {
+      "set": [
+        "{}",
+        "ini adalah foto {}"
+      ],
+      "R@1_train_rata2_dua_arah_ID": 0.172
+    }
+  ]
+}
