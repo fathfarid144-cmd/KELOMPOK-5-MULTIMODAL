@@ -1,0 +1,183 @@
+{
+  "V0 baseline M1": {
+    "gambar->teks ID": {
+      "R@1": 0.21454545454545454,
+      "R@5": 0.37454545454545457,
+      "R@10": 0.5054545454545455,
+      "mAP@10": 0.29304473304473305,
+      "median_rank": 10.0,
+      "n_query": 275
+    },
+    "gambar->teks EN": {
+      "R@1": 0.44727272727272727,
+      "R@5": 0.7127272727272728,
+      "R@10": 0.8327272727272728,
+      "mAP@10": 0.5594271284271284,
+      "median_rank": 2.0,
+      "n_query": 275
+    },
+    "teks ID->gambar": {
+      "R@1": 0.19636363636363635,
+      "R@5": 0.41818181818181815,
+      "R@10": 0.5054545454545455,
+      "mAP@10": 0.28300000000000003,
+      "median_rank": 10.0,
+      "n_query": 275
+    },
+    "teks EN->gambar": {
+      "R@1": 0.38181818181818183,
+      "R@5": 0.6727272727272727,
+      "R@10": 0.7709090909090909,
+      "mAP@10": 0.5073419913419913,
+      "median_rank": 2.0,
+      "n_query": 275
+    }
+  },
+  "V1 ensemble ID (greedy, UTAMA)": {
+    "gambar->teks ID": {
+      "R@1": 0.24363636363636362,
+      "R@5": 0.4072727272727273,
+      "R@10": 0.5236363636363637,
+      "mAP@10": 0.3207460317460317,
+      "median_rank": 9.0,
+      "n_query": 275
+    },
+    "gambar->teks EN": {
+      "R@1": 0.44727272727272727,
+      "R@5": 0.7127272727272728,
+      "R@10": 0.8327272727272728,
+      "mAP@10": 0.5594271284271284,
+      "median_rank": 2.0,
+      "n_query": 275
+    },
+    "teks ID->gambar": {
+      "R@1": 0.1890909090909091,
+      "R@5": 0.4036363636363636,
+      "R@10": 0.52,
+      "mAP@10": 0.28026262626262627,
+      "median_rank": 9.0,
+      "n_query": 275
+    },
+    "teks EN->gambar": {
+      "R@1": 0.38181818181818183,
+      "R@5": 0.6727272727272727,
+      "R@10": 0.7709090909090909,
+      "mAP@10": 0.5073419913419913,
+      "median_rank": 2.0,
+      "n_query": 275
+    }
+  },
+  "V2 ensemble ID (semua 10, EKSPLORASI)": {
+    "gambar->teks ID": {
+      "R@1": 0.2290909090909091,
+      "R@5": 0.43272727272727274,
+      "R@10": 0.56,
+      "mAP@10": 0.3205786435786436,
+      "median_rank": 8.0,
+      "n_query": 275
+    },
+    "gambar->teks EN": {
+      "R@1": 0.44727272727272727,
+      "R@5": 0.7127272727272728,
+      "R@10": 0.8327272727272728,
+      "mAP@10": 0.5594271284271284,
+      "median_rank": 2.0,
+      "n_query": 275
+    },
+    "teks ID->gambar": {
+      "R@1": 0.19636363636363635,
+      "R@5": 0.4109090909090909,
+      "R@10": 0.5236363636363637,
+      "mAP@10": 0.2886479076479077,
+      "median_rank": 9.0,
+      "n_query": 275
+    },
+    "teks EN->gambar": {
+      "R@1": 0.38181818181818183,
+      "R@5": 0.6727272727272727,
+      "R@10": 0.7709090909090909,
+      "mAP@10": 0.5073419913419913,
+      "median_rank": 2.0,
+      "n_query": 275
+    }
+  },
+  "K1 kontrol ensemble EN": {
+    "gambar->teks ID": {
+      "R@1": 0.21454545454545454,
+      "R@5": 0.37454545454545457,
+      "R@10": 0.5054545454545455,
+      "mAP@10": 0.29304473304473305,
+      "median_rank": 10.0,
+      "n_query": 275
+    },
+    "gambar->teks EN": {
+      "R@1": 0.45454545454545453,
+      "R@5": 0.7454545454545455,
+      "R@10": 0.8436363636363636,
+      "mAP@10": 0.5730894660894662,
+      "median_rank": 2.0,
+      "n_query": 275
+    },
+    "teks ID->gambar": {
+      "R@1": 0.19636363636363635,
+      "R@5": 0.41818181818181815,
+      "R@10": 0.5054545454545455,
+      "mAP@10": 0.28300000000000003,
+      "median_rank": 10.0,
+      "n_query": 275
+    },
+    "teks EN->gambar": {
+      "R@1": 0.38181818181818183,
+      "R@5": 0.6690909090909091,
+      "R@10": 0.7818181818181819,
+      "mAP@10": 0.5092380952380952,
+      "median_rank": 2.0,
+      "n_query": 275
+    }
+  },
+  "_meta": {
+    "split": "val",
+    "seed": 0,
+    "protokol_ranking": "M1 (seri optimistis)",
+    "templat_V1": [
+      "{}",
+      "ini adalah foto {}"
+    ],
+    "templat_V2": [
+      "{}",
+      "foto {}",
+      "sebuah foto {}",
+      "gambar {}",
+      "foto budaya Indonesia: {}",
+      "dokumentasi budaya Indonesia: {}",
+      "{} di Indonesia",
+      "sebuah foto yang menunjukkan {}",
+      "potret {}",
+      "ini adalah foto {}"
+    ],
+    "status": {
+      "V0": "baseline M1",
+      "V1": "utama (seleksi train)",
+      "V2": "eksplorasi (dirancang setelah melihat val V1)",
+      "K1": "kontrol"
+    },
+    "biaya_dtk": {
+      "V1_encode_dtk": 38.19,
+      "V2_encode_dtk": 187.67,
+      "K1_encode_dtk": 31.27,
+      "V0_metrik_dtk": 0.01,
+      "V1_metrik_dtk": 0.01,
+      "V2_metrik_dtk": 0.01,
+      "K1_metrik_dtk": 0.01,
+      "seleksi_V1_dtk": 347.76,
+      "load_encoder_dtk": 23.66
+    },
+    "jumlah_encode_teks": {
+      "V1": 550,
+      "V2": 2750,
+      "K1": 550
+    },
+    "parameter_dilatih": 0,
+    "runtime": "isi: CPU / GPU T4 (catat dari Runtime > Change runtime type)"
+  }
+}

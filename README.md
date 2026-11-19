@@ -11,8 +11,6 @@ IF25-40304 Pembelajaran Mesin Multimodal, Ganjil 2026/2027
 | 4 | Jana Rohman Wasiso | 123140046 | Evaluasi dan Uji Kasus Sulit |
 | 5 | Muhammad Fatahillah Farid | 123140203 | Integrasi dan Koordinasi|
 
-Peran terkunci sejak M0, perubahan butuh persetujuan Dosen Pengampu.
-
 ## Isi folder
 - `src/` — kode yang digunakan dalam pengerjaan tugas
 - `experiments/` — hasil angka dari eksekusi (csv/json), bukan data mentah
