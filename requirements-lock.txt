@@ -1,0 +1,4 @@
+# No repository-wide lock is published: the checked-in execution metadata
+# records different Python/package versions for M1 and M3. See
+# docs/REPRODUCIBILITY.md for provenance and the command to export an actual
+# lock from a verified environment.

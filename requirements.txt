@@ -1,0 +1,10 @@
+numpy
+pandas
+torch
+transformers
+sentence-transformers
+Pillow
+matplotlib
+tqdm
+jupyter
+ipykernel
