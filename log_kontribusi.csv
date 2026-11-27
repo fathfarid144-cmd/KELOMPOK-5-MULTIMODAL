@@ -1,1 +1,6 @@
-nama,NIM,peran,minggu,kegiatan,bukti
+nama,peran,milestone,minggu,tanggal,kegiatan,hasil,bukti,kendala,status_verifikasi
+Muhamad Rafi Ilham,Data dan Etika Data,,,,,,,,Perlu konfirmasi
+Cikal Galih Nur Arifin,Baseline dan Pipeline,,,,,,,,Perlu konfirmasi
+Raditya Alrasyid Nugroho,Eksperimen Penyejajaran/Fusi,,,,,,,,Perlu konfirmasi
+Jana Rohman Wasiso,Evaluasi dan Uji Kasus Sulit,,,,,,,,Perlu konfirmasi
+Muhammad Fatahillah Farid,Integrasi dan Koordinasi,,,,,,,,Perlu konfirmasi
