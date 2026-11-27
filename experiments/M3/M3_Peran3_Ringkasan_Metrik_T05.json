@@ -1,0 +1,117 @@
+{
+  "seed": 0,
+  "device": "cpu",
+  "manifest_sha256": "8b38fb3a42d9796f776b8453e26608f607ac2f4178b1bb7fab2ea347580eaf9c",
+  "image_sha256": {
+    "images/svl_140084373.jpg": "2248703acc14cbe495e3aa2f3d129d4a01ee2bc332d6d27afeca2ce4c17ab9c1",
+    "images/svl_140084616.jpg": "d04fbe97336ad0e7177fa3d74266ed915e1f7a0ecdf24d4656d2ed517a0d7506",
+    "images/svl_141004357.jpg": "05fa32635337d5713e610ce89a6bb3f5835d7eeccab0597769baf99d172c5586",
+    "images/svl_141004380.jpg": "d8e906413d83b336e8d4b63b95573ab39015c7d4c12c1e0c3ab260f6dd6f8729",
+    "images/svl_146653588.jpg": "c28240ac0bd28652a223f47d705dd07c96f07b55216c410802d631f6881a2f3f",
+    "images/svl_146653596.jpg": "2177c8e8f2df77c06eed3e46e59290465012e5e8849e27172c5deef3825fc0ec",
+    "images/svl_147525936.jpg": "267252de2320d4fc6d15029fa33d8a762e6c9e4ba6e6765e4f35a709d0a869db",
+    "images/svl_147562902.jpg": "475f97deb226b10ff6831ef0a93b59476f47c6d72951ad4f00ee0745346fba28",
+    "images/svl_147562903.jpg": "a54e6a74816078d823213924916ac3d24dba6fa5970ee80cc09fbf1fb1db5dd8",
+    "images/svl_147563198.jpg": "aa786d48183623ec42d7a0e5302828051198254a67222bd397fde5c90f228586"
+  },
+  "image_split": {
+    "images/svl_140084373.jpg": "val",
+    "images/svl_140084616.jpg": "train",
+    "images/svl_141004357.jpg": "train",
+    "images/svl_141004380.jpg": "train",
+    "images/svl_146653588.jpg": "train",
+    "images/svl_146653596.jpg": "train",
+    "images/svl_147525936.jpg": "train",
+    "images/svl_147562902.jpg": "train",
+    "images/svl_147562903.jpg": "train",
+    "images/svl_147563198.jpg": "train"
+  },
+  "models": {
+    "image": "sentence-transformers/clip-ViT-B-32",
+    "text": "sentence-transformers/clip-ViT-B-32-multilingual-v1"
+  },
+  "templates": {
+    "V0": [
+      "{}"
+    ],
+    "V1": [
+      "{}",
+      "ini adalah foto {}"
+    ],
+    "V2": [
+      "{}",
+      "foto {}",
+      "sebuah foto {}",
+      "gambar {}",
+      "foto budaya Indonesia: {}",
+      "dokumentasi budaya Indonesia: {}",
+      "{} di Indonesia",
+      "sebuah foto yang menunjukkan {}",
+      "potret {}",
+      "ini adalah foto {}"
+    ]
+  },
+  "softmax_scale": 100.0,
+  "parameter_dilatih": 0,
+  "load_seconds": 25.02967421400001,
+  "image_encoding_seconds": 1.7553355029999693,
+  "python": "3.13.18",
+  "packages": {
+    "sentence-transformers": "5.7.0",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "pillow": "11.3.0",
+    "transformers": "5.22.1"
+  },
+  "verification_V1": {
+    "status": "belum tersedia"
+  },
+  "summary": [
+    {
+      "variant": "V0",
+      "templates": 1,
+      "query_pass": 10,
+      "query_fail": 0,
+      "query_success": 1.0,
+      "pair_pass": 5,
+      "pair_success": 1.0,
+      "mean_p_correct": 0.8841571807861328,
+      "mean_margin": 0.02994610071182251,
+      "improvement_vs_V0": 0,
+      "regression_vs_V0": 0,
+      "encoding_seconds": 0.34677235300000575,
+      "text_encodings": 10
+    },
+    {
+      "variant": "V1",
+      "templates": 2,
+      "query_pass": 10,
+      "query_fail": 0,
+      "query_success": 1.0,
+      "pair_pass": 5,
+      "pair_success": 1.0,
+      "mean_p_correct": 0.8964430212974548,
+      "mean_margin": 0.03069235235452652,
+      "improvement_vs_V0": 0,
+      "regression_vs_V0": 0,
+      "encoding_seconds": 0.6293321849999529,
+      "text_encodings": 20
+    },
+    {
+      "variant": "V2",
+      "templates": 10,
+      "query_pass": 10,
+      "query_fail": 0,
+      "query_success": 1.0,
+      "pair_pass": 5,
+      "pair_success": 1.0,
+      "mean_p_correct": 0.9269134402275085,
+      "mean_margin": 0.03484799712896347,
+      "improvement_vs_V0": 0,
+      "regression_vs_V0": 0,
+      "encoding_seconds": 3.2093526410000095,
+      "text_encodings": 100
+    }
+  ]
+}

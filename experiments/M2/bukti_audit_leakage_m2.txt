@@ -1,0 +1,37 @@
+BUKTI AUDIT LEAKAGE M2 — KELOMPOK T05 — PERAN A
+Sumber: train.csv, val.csv, M2_PromptEnsemble_v2.ipynb, templates_terpilih_v2.json,
+        hasil_m2_prompt_ensemble_v2.json, konfirmasi kronologi dari pelaksana eksperimen.
+
+A. PEMISAHAN DATA
+Train = 2072; validation = 275.
+Duplikat image_id internal train/val = 0/0.
+Image ID tumpang tindih antar-split = 0.
+Path gambar tumpang tindih antar-split = 0.
+
+B. CAPTION LINTAS SPLIT
+Caption ID validation cocok dengan train = 11 baris.
+Caption EN validation cocok dengan train = 11 baris.
+Total baris validation unik yang cocok minimal satu bahasa = 12.
+Dengan subset 500 train yang dipilih seed 0, baris validation unik yang cocok = 6.
+Kemiripan caption nonidentik (rasio >=90): ID=5; EN=5; baris val unik=7.
+Ini hanya indikasi berdasarkan kemiripan karakter; perlu peninjauan manusia.
+Perhatian: kesamaan/kemiripan caption bukan bukti langsung kebocoran gambar/model.
+
+C. ALUR NOTEBOOK DAN KONFIGURASI
+Seleksi greedy V1 memakai caption train dan tr['img'][idx], seed=0, n_sub=500.
+JSON V1 chosen = ['{}', 'ini adalah foto {}'].
+V2 menggunakan 10 templat Indonesia.
+Cache validation dimuat di cell sebelum seleksi, tetapi tidak ditemukan sebagai input greedy V1.
+Validation dipakai untuk evaluasi; konsistensi JSON varian = True.
+
+D. TEMUAN KRITIS (BERDASARKAN KONFIRMASI RADIT)
+V2 ditentukan SETELAH melihat hasil validation V1, dan diuji pada validation yang sama.
+Ini adalah pemilihan/desain adaptif menggunakan informasi evaluasi (risiko validation leakage).
+TIDAK bisa dipulihkan menjadi evaluasi independen hanya dengan mengulang notebook.
+V1 dapat dijelaskan sebagai hasil utama berdasarkan pemilihan di train sebelum eval val;
+V2 WAJIB diberi status eksploratif dalam laporan. Tidak boleh mengubah kronologi.
+
+E. BATAS PEMERIKSAAN
+Tidak menjalankan ulang encoder/hasil retrieval; tidak menilai near-duplicate secara visual.
+Pemeriksaan MD5/SHA-256 dari M1 dapat dirujuk, tetapi tidak dihitung ulang tanpa gambar asli.
+Hasil audit tidak membuktikan bahwa seluruh eksperimen bebas dari leakage lain.

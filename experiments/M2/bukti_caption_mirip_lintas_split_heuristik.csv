@@ -1,0 +1,11 @@
+﻿val_image_id,train_image_id,bahasa,kemiripan_karakter_persen,caption_val,caption_train
+svl_140084783,svl_140084787,caption_id,92.59,Lima penari Midat-Midut sedang melakukan foto bersama.,Sembilan penari Midat-Midut sedang melakukan foto bersama.
+svl_144425439,svl_144425396,caption_id,93.43,"Sego Tempong adalah makanan khas Banyuwangi, Jawa Timur, yang terdiri dari nasi putih, sayuran rebus seperti kangkung, bayam, dan kacang panjang, lauk seperti ikan goreng, tahu, tempe, dan sambal khas yang sangat pedas.","Nasi Tempong adalah makanan khas Banyuwangi, Jawa Timur, yang terdiri dari nasi putih, sayuran rebus seperti kangkung dan kacang panjang, lauk seperti ayam goreng atau tahu, dan sambal khas yang sangat pedas"
+svl_147525795,svl_147525791,caption_id,99.16,"Ayam goreng mentega, ayam yang digoreng dengan mentega dan bumbu seperti kecap, saus tiram, bawang putih, dan bawang bombai","Ayam goreng mentega, ayam yang digoreng dengan mentega dan bumbu seperti kecap, saus tiram, bawang putih, dan bawang bombay"
+svl_147563112,svl_147563116,caption_id,90.0,kemeja batik khas indonesia,kemeja-kemeja batik khas indonesia
+svl_147563432,svl_147563094,caption_id,91.09,"Candi Prambanan, candi umat hindu di Yogyakarta","Kompleks Candi Prambanan, candi umat hindu di Yogyakarta"
+svl_140084783,svl_140084787,caption_en,96.36,Five Midat-Midut dancers are posing together for a photo.,Nine Midat-Midut dancers are posing together for a photo.
+svl_140084807,svl_140084802,caption_en,90.91,"A woman is posing for a photo around the Ulun Danu Beratan Temple area in Bali, Indonesia.","A woman is posing for a photo in front of the Ulun Danu Beratan Temple in Bali, Indonesia."
+svl_142113168,svl_142113165,caption_en,96.7,"Mie Gacoan, a popular spicy noodle in Indonesia","Mie Gacoan, popular spicy noodles in Indonesia"
+svl_147563112,svl_147563116,caption_en,98.55,Traditional Indonesian batik shirt.,Traditional Indonesian batik shirts
+svl_147563432,svl_147563094,caption_en,93.85,"Prambanan Temple, a Hindu temple for worshippers in Yogyakarta.","Prambanan Temple Complex, a Hindu temple for worshippers in Yogyakarta."

@@ -1,0 +1,60 @@
+{
+  "dataset": {
+    "train": 2072,
+    "val": 275,
+    "train_image_id_duplicated": 0,
+    "val_image_id_duplicated": 0,
+    "cross_split_image_id": 0,
+    "cross_split_file_path": 0
+  },
+  "caption_normalisasi": "lowercase, hapus tanda baca, rapikan spasi; mengikuti m1_analisis.py",
+  "caption_val_cocok_train": {
+    "ID": 11,
+    "EN": 11,
+    "baris_unik": 12
+  },
+  "caption_val_cocok_subtrain_seleksi_V1": {
+    "seed": 0,
+    "n_sub": 500,
+    "ID": 6,
+    "EN": 6,
+    "baris_unik": 6,
+    "image_id_val": [
+      "svl_143496626",
+      "svl_147562988",
+      "svl_147563235",
+      "svl_147563399",
+      "svl_147563401",
+      "svl_147563431"
+    ]
+  },
+  "caption_mirip_nonidentik_heuristik_90": {
+    "metode": "rapidfuzz fuzz.ratio pada caption normalisasi, ambang >=90/100, pasangan terbaik, bukan anotasi semantik",
+    "ID": 5,
+    "EN": 5,
+    "baris_val_unik": 7
+  },
+  "audit_statis_notebook": {
+    "seleksi_greedy_cell12_tanpa_referensi_val": true,
+    "seleksi_train_dipanggil": true,
+    "subset_train_dipakai_greedy": true,
+    "seed_rng_train": true,
+    "val_dipakai_evaluasi": true,
+    "cache_validation_dimuat_sebelum_seleksi": true,
+    "hasil_V2_diproses": true
+  },
+  "json_konsisten_dengan_konfigurasi": true,
+  "kronologi_dikonfirmasi_pelaksana": [
+    "V1 dipilih di train melalui greedy selection",
+    "hasil validation V1 dilihat",
+    "V2 10 templat dirancang sesudah melihat hasil val V1",
+    "V2 kemudian diuji pada val yang sama"
+  ],
+  "klasifikasi": "V1 hasil utama (berdasarkan kronologi); V2 eksploratif/adaptif, bukan uji independen",
+  "keterbatasan": [
+    "Keputusan V2 berasal dari konfirmasi pelaksana; tidak dapat disimpulkan hanya dari source code",
+    "Kemiripan visual gambar tidak dapat diuji tanpa file gambar; hasil hash M1 tidak diuji ulang",
+    "Kesamaan caption bukan dengan sendirinya bukti kebocoran data",
+    "Kode dievaluasi secara statis; encoder dan metrik M2 tidak dijalankan ulang"
+  ]
+}

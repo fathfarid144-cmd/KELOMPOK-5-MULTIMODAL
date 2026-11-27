@@ -1,0 +1,124 @@
+{
+  "judul": "Protokol Uji Kasus Sulit M3 — Kelompok 05",
+  "pemilik_peran": "Jana Rohman Wasiso (Peran 4: Evaluasi dan Uji Kasus Sulit)",
+  "status": "Siap dieksekusi; kolom probabilitas belum diisi sebelum pipeline M2 V1 dijalankan.",
+  "sumber_gambar": {
+    "arsip": "images-20261112T145641Z-1-001.zip",
+    "catatan": "Setiap gambar diperiksa secara visual. ID di bawah adalah path di dalam arsip images/."
+  },
+  "sistem_utama": {
+    "varian": "V1 ensemble ID (greedy, UTAMA)",
+    "alasan": "Dua templat V1 dipilih hanya dengan subset train (seed 0, n=500) dan dicatat sebagai varian utama M2. V2 berstatus eksplorasi karena dirancang setelah melihat validation.",
+    "encoder_gambar": "sentence-transformers/clip-ViT-B-32",
+    "encoder_teks_indonesia": "sentence-transformers/clip-ViT-B-32-multilingual-v1",
+    "templat_v1": [
+      "{}",
+      "ini adalah foto {}"
+    ],
+    "agregasi_teks": "Rata-rata embedding dua templat, lalu L2-normalisasi ulang.",
+    "probabilitas": "Softmax atas dua skor kosinus kandidat dengan skala logit 100; P(benar)+P(pengecoh)=1 pada setiap baris.",
+    "aturan_lulus": "Lolos jika P(benar) > P(pengecoh)."
+  },
+  "larangan_metodologis": [
+    "Tidak mengubah templat, encoder, skala softmax, atau kandidat setelah melihat hasil sepuluh query.",
+    "Tidak memakai test.csv atau split test untuk pemilihan maupun pelaporan M3.",
+    "Hasil V0/V2, bila dicoba Peran 3, hanya analisis pendukung dan tidak menggantikan hasil utama V1."
+  ],
+  "kasus": [
+    {
+      "no": 1,
+      "jenis": ["negasi", "relasi"],
+      "catatan_visual": "Dua rumah adat kayu: satu tampak tanpa orang, satu lagi memiliki beberapa orang di tangga depan.",
+      "query": [
+        {
+          "id": "1A",
+          "teks": "rumah adat kayu yang tidak memiliki orang di tangganya",
+          "benar": "images/svl_140084616.jpg",
+          "pengecoh": "images/svl_147563198.jpg"
+        },
+        {
+          "id": "1B",
+          "teks": "rumah adat beratap rumbia dengan beberapa orang di tangga",
+          "benar": "images/svl_147563198.jpg",
+          "pengecoh": "images/svl_140084616.jpg"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "jenis": ["atribut", "penanda budaya"],
+      "catatan_visual": "Dua kain batik dengan perbedaan warna, motif, dan cara penyajian gambar.",
+      "query": [
+        {
+          "id": "2A",
+          "teks": "kain batik cokelat bermotif hitam putih yang diletakkan di lantai",
+          "benar": "images/svl_140084373.jpg",
+          "pengecoh": "images/svl_146653588.jpg"
+        },
+        {
+          "id": "2B",
+          "teks": "kain batik merah putih yang sedang dipegang di dalam toko",
+          "benar": "images/svl_146653588.jpg",
+          "pengecoh": "images/svl_140084373.jpg"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "jenis": ["penanda budaya", "jumlah objek"],
+      "catatan_visual": "Satu orang memainkan instrumen pukul tradisional; gambar pembanding memperlihatkan beberapa pemain angklung.",
+      "query": [
+        {
+          "id": "3A",
+          "teks": "seseorang memainkan alat musik gamelan dengan pemukul",
+          "benar": "images/svl_147562903.jpg",
+          "pengecoh": "images/svl_147562902.jpg"
+        },
+        {
+          "id": "3B",
+          "teks": "sekelompok orang memainkan angklung bambu sambil berdiri",
+          "benar": "images/svl_147562902.jpg",
+          "pengecoh": "images/svl_147562903.jpg"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "jenis": ["relasi spasial", "atribut"],
+      "catatan_visual": "Kedua gambar memuat perahu nelayan, tetapi berbeda pada warna serta lokasi perahu terhadap pantai atau dermaga.",
+      "query": [
+        {
+          "id": "4A",
+          "teks": "perahu nelayan berwarna warni yang berlabuh di tepi pelabuhan kecil",
+          "benar": "images/svl_147525936.jpg",
+          "pengecoh": "images/svl_146653596.jpg"
+        },
+        {
+          "id": "4B",
+          "teks": "perahu kecil berwarna hijau biru di tepi pantai berpasir",
+          "benar": "images/svl_146653596.jpg",
+          "pengecoh": "images/svl_147525936.jpg"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "jenis": ["penanda budaya", "atribut", "relasi"],
+      "catatan_visual": "Dua gambar sama-sama menampilkan tokoh bertopeng tradisional, namun berbeda pada jumlah tokoh, warna busana, latar, dan kain yang terlihat.",
+      "query": [
+        {
+          "id": "5A",
+          "teks": "tiga tokoh bertopeng dalam busana merah hitam berdiri di luar ruangan",
+          "benar": "images/svl_141004357.jpg",
+          "pengecoh": "images/svl_141004380.jpg"
+        },
+        {
+          "id": "5B",
+          "teks": "dua tokoh bertopeng di dalam ruangan dengan kain biru menjuntai",
+          "benar": "images/svl_141004380.jpg",
+          "pengecoh": "images/svl_141004357.jpg"
+        }
+      ]
+    }
+  ]
+}
